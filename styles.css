@@ -286,8 +286,8 @@ body {
 }
 
 .profile-img-container {
-  flex: 1.5;
-  padding-right: 40px;
+  flex: 1;
+  padding-right: 20px;
 }
 
 .profile-img {
@@ -296,6 +296,7 @@ body {
 
 .specs-list {
   flex: 1;
+  padding-left: 20px;
 }
 
 .specs-list ul {
@@ -387,7 +388,7 @@ body {
 /* Footer Grid */
 .footer-grid {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
   border-top: 1px solid var(--border-color);
   padding-top: 40px;
