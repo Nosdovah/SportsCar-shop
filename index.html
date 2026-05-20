@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toyota Supra MK4 - E-Commerce</title>
+  <link rel="stylesheet" href="styless.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Noto+Sans+JP:wght@400;700&family=Montserrat:wght@300;400;600;800&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="ecommerce-bar">
+    <div class="price">Harga: <span>Rp 2.500.000.000</span></div>
+    <button class="buy-btn" onclick="addToCart()">Masukkan Keranjang</button>
+  </div>
+
+  <div class="slider-container">
+  <button class="nav-btn prev-btn" onclick="moveSlide(-1)">&#10094;</button>
+  <button class="nav-btn next-btn" onclick="moveSlide(1)">&#10095;</button>
+  <div class="slider-track" id="sliderTrack">
+    <div class="slide">
+      <main class="container car-section" data-price="Rp 2.500.000.000" data-name="Toyota Supra MK4" data-image="images/Toyota-supra/hero_supra.png">
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="sidebar">
+        <div class="logo-box">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Toyota_carlogo.svg" alt="Toyota Logo" class="toyota-logo">
+          <h3>TOYOTA</h3>
+        </div>
+        <div class="badge-red">SUPRA<br>MK4</div>
+        <div class="badge-dark">A80</div>
+        <div class="badge-text">1993-2002</div>
+        <div class="flag">
+          <div class="flag-circle"></div>
+        </div>
+      </div>
+
+      <div class="hero-img-wrapper">
+        <img src="images/Toyota-supra/hero_supra.png" alt="Toyota Supra MK4 Hero" class="hero-img">
+        
+        <div class="hero-content">
+          <h1 class="main-title">
+            <span class="small-toyota">T O Y O T A</span><br>
+            Supra <span class="mk4">MK4</span>
+          </h1>
+          <p class="subtitle">伝説は、終わらない <br> <span>THE LEGEND LIVES ON</span></p>
+        </div>
+      </div>
+
+      <div class="tagline">
+        <div class="line"></div>
+        <p>BUILT FOR PERFORMANCE. DRIVEN BY PASSION.</p>
+        <div class="line"></div>
+      </div>
+    </header>
+
+    <!-- Specs Section -->
+    <section class="specs-section">
+      <div class="profile-img-container">
+        <img src="images/Toyota-supra/profile_supra.png" alt="Supra Profile" class="profile-img">
+      </div>
+      <div class="specs-list">
+        <h2 class="section-title text-red">SPECIFICATIONS</h2>
+        <ul>
+          <li>
+            <span class="icon">⚙️</span>
+            <div class="spec-text">
+              <strong>ENGINE</strong>
+              <span>2JZ-GTE 3.0L Inline-6 Twin Turbo</span>
+            </div>
+          </li>
+          <li>
+            <span class="icon">🐎</span>
+            <div class="spec-text">
+              <strong>POWER</strong>
+              <span>276 PS (206 kW) @ 5,600 rpm</span>
+            </div>
+          </li>
+          <li>
+            <span class="icon">🔄</span>
+            <div class="spec-text">
+              <strong>TORQUE</strong>
+              <span>431 N·m (318 lb·ft) @ 3,600 rpm</span>
+            </div>
+          </li>
+          <li>
+            <span class="icon">🛣️</span>
+            <div class="spec-text">
+              <strong>DRIVETRAIN</strong>
+              <span>RWD</span>
+            </div>
+          </li>
+          <li>
+            <span class="icon">🕹️</span>
+            <div class="spec-text">
+              <strong>TRANSMISSION</strong>
+              <span>6-Speed Manual (Getrag V160)</span>
+            </div>
+          </li>
+          <li>
+            <span class="icon">⚖️</span>
+            <div class="spec-text">
+              <strong>WEIGHT</strong>
+              <span>1,495 kg (3,296 lbs)</span>
+            </div>
+          </li>
+          <li>
+            <span class="icon">⏱️</span>
+            <div class="spec-text">
+              <strong>0-100 km/h</strong>
+              <span>~4.6 sec</span>
+            </div>
+          </li>
+          <li>
+            <span class="icon">🚀</span>
+            <div class="spec-text">
+              <strong>TOP SPEED</strong>
+              <span>250 km/h (Electronically Limited)</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Grid Section -->
+    <section class="four-grid">
+      <!-- Rear View -->
+      <div class="grid-item">
+        <h2 class="section-title text-red">REAR VIEW</h2>
+        <img src="images/Toyota-supra/rear_supra.png" alt="Supra Rear View" class="grid-img">
+      </div>
+      <!-- Available Colors -->
+      <div class="grid-item colors-section">
+        <h2 class="section-title text-red">AVAILABLE COLORS</h2>
+        <ul class="color-list">
+          <li><span class="color-dot" style="background: #ffffff; border: 1px solid #555;"></span> Super White II</li>
+          <li><span class="color-dot" style="background: #111111;"></span> Black Mica</li>
+          <li><span class="color-dot" style="background: #c0c0c0;"></span> Silk Silver Metallic</li>
+          <li><span class="color-dot" style="background: #004225;"></span> Deep Jewel Green Mica</li>
+          <li><span class="color-dot" style="background: #191970;"></span> Midnight Blue Pearl</li>
+          <li><span class="color-dot" style="background: #cc0000;"></span> Rosso Arancio Pearl</li>
+          <li><span class="color-dot" style="background: #a9a9a9;"></span> Silver Metallic</li>
+          <li><span class="color-dot" style="background: #d3d3d3;"></span> Light Titanium Metallic</li>
+        </ul>
+      </div>
+      <!-- Engine -->
+      <div class="grid-item">
+        <h2 class="section-title text-red">THE HEART – 2JZ-GTE</h2>
+        <img src="images/Toyota-supra/engine_supra.png" alt="2JZ-GTE Engine" class="grid-img">
+        <p class="desc-text">The 2JZ-GTE is an engineering masterpiece renowned for its incredible strength, smooth power delivery, and huge tuning potential. A true icon of the JDM era.</p>
+      </div>
+      <!-- Interior -->
+      <div class="grid-item">
+        <h2 class="section-title text-red">DRIVER FOCUSED</h2>
+        <img src="images/Toyota-supra/interior_supra.png" alt="Supra Interior" class="grid-img">
+        <p class="desc-text">Ergonomic. Intuitive. Timeless. Every detail in the cockpit is designed to connect you to the road.</p>
+      </div>
+    </section>
+
+    <!-- Footer Grid -->
+    <section class="footer-grid">
+      <div class="legend-box">
+        <h2 class="section-title text-red">JDM ICON. GLOBAL LEGEND.</h2>
+        <p class="desc-text">From the streets to the circuits, the Supra MK4 has become one of the most iconic cars in automotive history. A symbol of performance, reliability, and pure driving joy.</p>
+        <div class="logos-bottom">
+          <h1 class="supra-logo-text">Supra</h1>
+          <div class="gr-info">
+            <div class="gr-spirit">NEVER STOP PUSHING</div>
+            <div class="gr-spirit-sub">TOYOTA GAZOO RACING SPIRIT</div>
+          </div>
+          <div class="gr-logo-box">
+            <span class="gr-r">G</span><span class="gr-w">R</span>
+          </div>
+        </div>
+      </div>
+      <div class="dimensions-box">
+        <h2 class="section-title text-red">DIMENSIONS</h2>
+        <div class="dim-graphics-container">
+           <img src="images/Toyota-supra/supra_blueprint.png" alt="Supra Dimensions Blueprint" class="blueprint-img">
+           <div class="dim-text-overlay">
+             <div class="dim-text"><span>Width:</span> 1,815 mm</div>
+             <div class="dim-text"><span>Height:</span> 1,525 mm</div>
+             <div class="dim-text"><span>Wheelbase:</span> 2,550 mm</div>
+             <div class="dim-text"><span>Length:</span> 4,525 mm</div>
+           </div>
+        </div>
+      </div>
+    </section>
+  </main>
+    </div>
+    <div class="slide">
+      <main class="container car-section" data-price="Rp 3.800.000.000" data-name="Mercedes-AMG GT" data-image="images/Mercedes-AMG/hero_amg.png">
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="sidebar">
+        <div class="logo-box">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Mercedes-Logo.svg" alt="Mercedes Logo" class="toyota-logo">
+          <h3>AMG</h3>
+        </div>
+        <div class="badge-red">AMG<br>GT</div>
+        <div class="badge-dark">C190</div>
+        <div class="badge-text">2014-2023</div>
+        <div class="flag" style="display:flex; flex-direction: column; border: none; background: transparent;">
+          <div style="width: 100%; height: 33.3%; background: #000;"></div>
+          <div style="width: 100%; height: 33.3%; background: #dd0000;"></div>
+          <div style="width: 100%; height: 33.3%; background: #ffcc00;"></div>
+        </div>
+      </div>
+
+      <div class="hero-img-wrapper">
+        <img src="images/Mercedes-AMG/hero_amg.png" alt="Mercedes AMG GT Hero" class="hero-img">
+        
+        <div class="hero-content">
+          <h1 class="main-title" style="font-family: 'Oswald', sans-serif; font-style: italic; letter-spacing: 5px; font-weight: 700;">
+            <span class="small-toyota" style="letter-spacing: 25px;">MERCEDES</span><br>
+            AMG <span class="mk4" style="color: #fff;">GT</span>
+          </h1>
+          <p class="subtitle">Handcrafted by Racers <br> <span>DRIVING PERFORMANCE</span></p>
+        </div>
+      </div>
+
+      <div class="tagline">
+        <div class="line"></div>
+        <p>BORN ON THE TRACK. BUILT FOR THE STREET.</p>
+        <div class="line"></div>
+      </div>
+    </header>
+
+    <!-- Specs Section -->
+    <section class="specs-section">
+      <div class="profile-img-container">
+        <img src="images/Mercedes-AMG/profile_amg.png" alt="AMG GT Profile" class="profile-img">
+      </div>
+      <div class="specs-list">
+        <h2 class="section-title text-red">SPECIFICATIONS</h2>
+        <ul>
+          <li>
+            <span class="icon">⚙️</span>
+            <div class="spec-text">
+              <strong>ENGINE</strong>
+              <span>M178 4.0L V8 Biturbo</span>
+            </div>
+          </li>
+          <li>
+            <span class="icon">🐎</span>
+            <div class="spec-text">
+              <strong>POWER</strong>
+              <span>577 hp @ 6,250 rpm</span>
+            </div>
+          </li>
+          <li>
+            <span class="icon">🔄</span>
+            <div class="spec-text">
+              <strong>TORQUE</strong>
+              <span>700 N·m @ 1,900 rpm</span>
+            </div>
+          </li>
+          <li>
+            <span class="icon">🛣️</span>
+            <div class="spec-text">
+              <strong>DRIVETRAIN</strong>
+              <span>RWD transaxle</span>
+            </div>
+          </li>
+          <li>
+            <span class="icon">🕹️</span>
+            <div class="spec-text">
+              <strong>TRANSMISSION</strong>
+              <span>7-Speed AMG SPEEDSHIFT DCT</span>
+            </div>
+          </li>
+          <li>
+            <span class="icon">⚖️</span>
+            <div class="spec-text">
+              <strong>WEIGHT</strong>
+              <span>1,630 kg</span>
+            </div>
+          </li>
+          <li>
+            <span class="icon">⏱️</span>
+            <div class="spec-text">
+              <strong>0-100 km/h</strong>
+              <span>3.6 sec</span>
+            </div>
+          </li>
+          <li>
+            <span class="icon">🚀</span>
+            <div class="spec-text">
+              <strong>TOP SPEED</strong>
+              <span>318 km/h</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Grid Section -->
+    <section class="four-grid">
+      <!-- Rear View -->
+      <div class="grid-item">
+        <h2 class="section-title text-red">REAR VIEW</h2>
+        <img src="images/Mercedes-AMG/rear_amg.png" alt="AMG GT Rear View" class="grid-img">
+      </div>
+      <!-- Available Colors -->
+      <div class="grid-item colors-section">
+        <h2 class="section-title text-red">AVAILABLE COLORS</h2>
+        <ul class="color-list">
+          <li><span class="color-dot" style="background: #2b2b2b;"></span> Magnetite Black Metallic</li>
+          <li><span class="color-dot" style="background: #c0c0c0;"></span> Iridium Silver Metallic</li>
+          <li><span class="color-dot" style="background: #e6e6e6;"></span> Brilliant Blue Metallic</li>
+          <li><span class="color-dot" style="background: #ff2a2a;"></span> Jupiter Red</li>
+          <li><span class="color-dot" style="background: #ffd700;"></span> AMG Solarbeam Yellow</li>
+          <li><span class="color-dot" style="background: #4a5d23;"></span> AMG Green Hell Magno</li>
+        </ul>
+      </div>
+      <!-- Engine -->
+      <div class="grid-item">
+        <h2 class="section-title text-red">THE HEART – V8 BITURBO</h2>
+        <img src="images/Mercedes-AMG/engine_amg.png" alt="AMG V8 Engine" class="grid-img">
+        <p class="desc-text">The "One Man, One Engine" philosophy ensures unparalleled precision. The 4.0L V8 Biturbo features a hot inside V configuration for immediate response.</p>
+      </div>
+      <!-- Interior -->
+      <div class="grid-item">
+        <h2 class="section-title text-red">AEROSPACE INSPIRED</h2>
+        <img src="images/Mercedes-AMG/interior_amg.png" alt="AMG GT Interior" class="grid-img">
+        <p class="desc-text">A cockpit designed around the driver, featuring a V8-styled center console, premium Dinamica microfiber, and state-of-the-art telemetry.</p>
+      </div>
+    </section>
+
+    <!-- Footer Grid -->
+    <section class="footer-grid">
+      <div class="legend-box">
+        <h2 class="section-title text-red">GERMAN ENGINEERING.</h2>
+        <p class="desc-text">Developed entirely in-house by Mercedes-AMG, the GT is a purebred sports car combining breathtaking design with absolute track capability.</p>
+        <div class="logos-bottom">
+          <h1 class="supra-logo-text" style="font-family: 'Oswald', sans-serif; font-style: italic;">AMG</h1>
+          <div class="gr-info">
+            <div class="gr-spirit" style="color: #ccc;">DRIVING PERFORMANCE</div>
+            <div class="gr-spirit-sub">AFFALTERBACH</div>
+          </div>
+        </div>
+      </div>
+      <div class="dimensions-box">
+        <h2 class="section-title text-red">DIMENSIONS</h2>
+        <div class="dim-graphics-container">
+           <img src="images/Mercedes-AMG/amg_blueprint.png" alt="AMG Dimensions Blueprint" class="blueprint-img">
+           <div class="dim-text-overlay">
+             <div class="dim-text"><span>Width:</span> 1,939 mm</div>
+             <div class="dim-text"><span>Height:</span> 1,288 mm</div>
+             <div class="dim-text"><span>Wheelbase:</span> 2,630 mm</div>
+             <div class="dim-text"><span>Length:</span> 4,546 mm</div>
+           </div>
+        </div>
+      </div>
+    </section>
+      </section>
+      </main>
+    </div>
+    <div class="slide">
+      <main class="container car-section" data-price="Rp 5.500.000.000" data-name="Aston Martin Vanquish S" data-image="images/AstonMartin-Vanquish/hero_Vanquish_S.png">
+        <!-- Hero Section -->
+        <header class="hero">
+          <div class="sidebar">
+            <div class="logo-box">
+              <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Aston_Martin_logo.svg" alt="Aston Martin Logo" class="toyota-logo" style="width: 55px; filter: invert(1); margin-top: 5px;">
+              <h3 style="font-size: 0.65rem; letter-spacing: 1px; margin-top: 2px;">ASTON MARTIN</h3>
+            </div>
+            <div class="badge-red" style="font-size: 0.7rem; padding: 5px 3px;">VANQUISH<br>S</div>
+            <div class="badge-dark">V12</div>
+            <div class="badge-text">2012-2018</div>
+            <div class="flag" style="display:flex; flex-direction: column; border: none; background: transparent; padding: 0; width: 40px; height: 25px;">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg" alt="UK Flag" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+
+          <div class="hero-img-wrapper">
+            <img src="images/AstonMartin-Vanquish/hero_Vanquish_S.png" alt="Aston Martin Vanquish Hero" class="hero-img">
+            
+            <div class="hero-content">
+              <h1 class="main-title" style="font-family: 'Oswald', sans-serif; font-style: italic; letter-spacing: 5px; font-weight: 700;">
+                <span class="small-toyota" style="letter-spacing: 20px;">ASTON MARTIN</span><br>
+                VANQUISH <span class="mk4" style="color: #fff; font-size: 2.5rem; right: -120px;">V12</span>
+              </h1>
+              <p class="subtitle">Power, Beauty, Soul <br> <span>THE ART OF PERFORMANCE</span></p>
+            </div>
+          </div>
+
+          <div class="tagline">
+            <div class="line"></div>
+            <p>HANDCRAFTED IN GAYDON, ENGLAND.</p>
+            <div class="line"></div>
+          </div>
+        </header>
+
+        <!-- Specs Section -->
+        <section class="specs-section">
+          <div class="profile-img-container">
+            <img src="images/AstonMartin-Vanquish/Profile.png" alt="Vanquish Profile" class="profile-img">
+          </div>
+          <div class="specs-list">
+            <h2 class="section-title text-red">SPECIFICATIONS</h2>
+            <ul>
+              <li>
+                <span class="icon">⚙️</span>
+                <div class="spec-text">
+                  <strong>ENGINE</strong>
+                  <span>5.9L AM29 Naturally Aspirated V12</span>
+                </div>
+              </li>
+              <li>
+                <span class="icon">🐎</span>
+                <div class="spec-text">
+                  <strong>POWER</strong>
+                  <span>568 hp (576 PS) @ 6,650 rpm</span>
+                </div>
+              </li>
+              <li>
+                <span class="icon">🔄</span>
+                <div class="spec-text">
+                  <strong>TORQUE</strong>
+                  <span>630 N·m @ 5,500 rpm</span>
+                </div>
+              </li>
+              <li>
+                <span class="icon">🛣️</span>
+                <div class="spec-text">
+                  <strong>DRIVETRAIN</strong>
+                  <span>RWD (Front-mid engine)</span>
+                </div>
+              </li>
+              <li>
+                <span class="icon">🕹️</span>
+                <div class="spec-text">
+                  <strong>TRANSMISSION</strong>
+                  <span>8-Speed Touchtronic III Automatic</span>
+                </div>
+              </li>
+              <li>
+                <span class="icon">⚖️</span>
+                <div class="spec-text">
+                  <strong>WEIGHT</strong>
+                  <span>1,739 kg</span>
+                </div>
+              </li>
+              <li>
+                <span class="icon">⏱️</span>
+                <div class="spec-text">
+                  <strong>0-100 km/h</strong>
+                  <span>3.6 sec</span>
+                </div>
+              </li>
+              <li>
+                <span class="icon">🚀</span>
+                <div class="spec-text">
+                  <strong>TOP SPEED</strong>
+                  <span>324 km/h</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Grid Section -->
+        <section class="four-grid">
+          <!-- Rear View -->
+          <div class="grid-item">
+            <h2 class="section-title text-red">REAR VIEW</h2>
+            <img src="images/AstonMartin-Vanquish/Rear.png" alt="Vanquish Rear View" class="grid-img">
+          </div>
+          <!-- Available Colors -->
+          <div class="grid-item colors-section">
+            <h2 class="section-title text-red">AVAILABLE COLORS</h2>
+            <ul class="color-list">
+              <li><span class="color-dot" style="background: #002f21;"></span> British Racing Green</li>
+              <li><span class="color-dot" style="background: #0d121c;"></span> Onyx Black</li>
+              <li><span class="color-dot" style="background: #6a737b;"></span> Skyfall Silver</li>
+              <li><span class="color-dot" style="background: #472626;"></span> Volcano Red</li>
+              <li><span class="color-dot" style="background: #252b47;"></span> Mariana Blue</li>
+            </ul>
+          </div>
+          <!-- Engine -->
+          <div class="grid-item">
+            <h2 class="section-title text-red">THE HEART – 6.0L V12</h2>
+            <img src="images/AstonMartin-Vanquish/Engine.png" alt="Aston Martin V12" class="grid-img">
+            <p class="desc-text">A masterpiece of sound and fury. Aston Martin's legendary naturally aspirated V12 engine offers razor-sharp throttle response and a distinct, operatic roar.</p>
+          </div>
+          <!-- Interior -->
+          <div class="grid-item">
+            <h2 class="section-title text-red">ULTRA-LUXURY CABIN</h2>
+            <img src="images/AstonMartin-Vanquish/interior.png" alt="Vanquish Interior" class="grid-img">
+            <p class="desc-text">Bridge of Weir leather, glass switches, and carbon fiber trim. Every surface is sculpted by hand to deliver the ultimate grand touring environment.</p>
+          </div>
+        </section>
+
+        <!-- Footer Grid -->
+        <section class="footer-grid">
+          <div class="legend-box">
+            <h2 class="section-title text-red">BRITISH GRAND TOURER.</h2>
+            <p class="desc-text">The Vanquish S is the ultimate expression of Aston Martin. A supercar body clothed in carbon-fibre, offering peak GT performance with unmatched British charm.</p>
+            <div class="logos-bottom">
+              <h1 class="supra-logo-text" style="font-family: 'Oswald', sans-serif; font-style: italic; font-size: 2.2rem; line-height: 1;">VANQUISH</h1>
+              <div class="gr-info">
+                <div class="gr-spirit" style="color: #ccc;">BEAUTY & SOUL</div>
+                <div class="gr-spirit-sub">GAYDON</div>
+              </div>
+            </div>
+          </div>
+          <div class="dimensions-box">
+            <h2 class="section-title text-red">DIMENSIONS</h2>
+            <div class="dim-graphics-container">
+               <img src="images/AstonMartin-Vanquish/vanquish_blueprint.png" alt="Aston Martin Dimensions Blueprint" class="blueprint-img">
+               <div class="dim-text-overlay">
+                 <div class="dim-text"><span>Width:</span> 1,910 mm</div>
+                 <div class="dim-text"><span>Height:</span> 1,294 mm</div>
+                 <div class="dim-text"><span>Wheelbase:</span> 2,740 mm</div>
+                 <div class="dim-text"><span>Length:</span> 4,728 mm</div>
+               </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</div>
+
+  
+
+  <!-- Cart Icon -->
+  <div class="cart-icon" onclick="toggleCart()">
+    🛒 <span class="cart-count">0</span>
+  </div>
+
+  <!-- Cart Sidebar -->
+  <div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h2>KERANJANG</h2>
+      <button class="close-cart" onclick="toggleCart()">&times;</button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <!-- Cart items will be injected here -->
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total">Total: <span id="cartTotal">Rp 0</span></div>
+      <button class="checkout-btn" onclick="checkout()">Checkout</button>
+    </div>
+  </div>
+  
+  <!-- Checkout Modal -->
+  <div class="checkout-modal" id="checkoutModal">
+    <div class="checkout-content">
+      <h2>Selesaikan Pesanan</h2>
+      <p>Silakan isi data pengiriman untuk kendaraan Anda.</p>
+      <form id="checkoutForm" onsubmit="submitOrder(event)">
+        <input type="text" placeholder="Nama Lengkap" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Nomor Telepon" required>
+        <textarea placeholder="Alamat Pengiriman (Negara, Kota, Kode Pos)" required rows="3"></textarea>
+        <button type="submit" class="submit-btn">Konfirmasi & Bayar</button>
+        <button type="button" class="cancel-btn" onclick="closeCheckout()">Batal</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
